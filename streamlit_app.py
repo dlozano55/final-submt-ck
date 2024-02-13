@@ -170,15 +170,14 @@ incremental_income = total_optimized_net_cost - total_net_cost
 
 # Streamlit App
 def app():
-    # Import statements
+    # Import 
     import streamlit as st
-
-    # Install necessary packages
-    st.write("Installing required packages. This may take a few minutes...")
-    st.run("pip install google-cloud-bigquery", shell=True)
-
-    # Continue with your other import statements
+    import subprocess
+    subprocess.call(['pip', 'install', 'google-cloud-bigquery'])
     from google.cloud import bigquery
+    import pandas as pd
+    import numpy as np
+    
     st.title('CloudKitchens Case Study - Dashboard by Diego Lozano')
 
     # Question1
