@@ -177,7 +177,7 @@ def app():
     from google.cloud import bigquery
     import pandas as pd
     import numpy as np
-    
+
     st.title('CloudKitchens Case Study - Dashboard by Diego Lozano')
 
     # Question1
