@@ -178,7 +178,7 @@ def app():
     import pandas as pd
     import numpy as np
 
-    st.title('CloudKitchens Case Study - Dashboard by Diego Lozano')
+    st.title('CloudKitchens Case Study - Dashboard by Diego Lozano Vega')
 
     # Question1
     st.subheader('1. What are the most successful restaurants across the country?')
